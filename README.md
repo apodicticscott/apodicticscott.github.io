@@ -3,9 +3,6 @@
 ## A personal portfolio website made using `@sveltejs/kit` and '@skeltonlabs/skelton'.
 
 To view, **[click here](https://apodicticscott.vercel.app)**
-Blog was originally intended for Github Pages, but moved it over to Vercel
-
-
 
 # Steps Clone ▶️
 
