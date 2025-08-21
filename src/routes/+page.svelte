@@ -169,21 +169,21 @@
 			</div>
 			<div class="ml-8 grid grid-cols-1 md:grid-cols-2 gap-6">
 				<div class="nvim-highlight p-6 rounded">
-					<h3 class="syntax-function text-lg mb-2">Project One</h3>
-					<p class="text-subtext1 mb-4">A modern web application built with cutting-edge technologies.</p>
+					<h3 class="syntax-function text-lg mb-2">GoStudy</h3>
+					<p class="text-subtext1 mb-4">A Golang SQLite Note Taking App using Charm Bubble Tea.</p>
 					<div class="flex flex-wrap gap-2">
-						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">React</span>
-						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">TypeScript</span>
-						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Node.js</span>
+						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Golang</span>
+						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">SQLite</span>
+						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Charm Bubble Tea</span>
 					</div>
 				</div>
 				<div class="nvim-highlight p-6 rounded">
-					<h3 class="syntax-function text-lg mb-2">Project Two</h3>
-					<p class="text-subtext1 mb-4">An innovative solution for complex data visualization.</p>
+					<h3 class="syntax-function text-lg mb-2">Modular Blogging Platform</h3>
+					<p class="text-subtext1 mb-4">Created as a College Capstone Project to provide a user-friendly experience for students to submit similarly formatted articles to instructors. After submission, instructors can comment, like, and give notes on student's articles.</p>
 					<div class="flex flex-wrap gap-2">
-						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Svelte</span>
-						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">D3.js</span>
-						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Python</span>
+						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Next.js</span>
+						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Firebase</span>
+						<span class="syntax-string text-xs px-2 py-1 bg-surface2 rounded">Figma</span>
 					</div>
 				</div>
 			</div>
@@ -200,7 +200,7 @@
 					<h3 class="syntax-keyword text-lg mb-3">Frontend</h3>
 					<ul class="space-y-2 text-subtext1">
 						<li>• JavaScript/TypeScript</li>
-						<li>• React/Svelte/Angular</li>
+						<li>• React/Svelte</li>
 						<li>• Material UI</li>
 						<li>• TailwindCSS</li>
 					</ul>
