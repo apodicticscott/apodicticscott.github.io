@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', monospace;
+  }
+  
+  body {
+    @apply bg-base text-text;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-surface0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface2 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-overlay0;
+  }
+}
+
+@layer components {
+  .nvim-border {
+    @apply border border-surface1 rounded-lg;
+  }
+  
+  .nvim-window {
+    @apply bg-surface0 nvim-border p-4;
+  }
+  
+  .nvim-statusline {
+    @apply bg-surface1 text-subtext1 px-4 py-2 text-sm font-mono;
+  }
+  
+  .nvim-cursor {
+    @apply bg-lavender text-base animate-cursor-blink;
+  }
+  
+  .nvim-highlight {
+    @apply bg-surface1 text-text;
+  }
+  
+  .syntax-keyword {
+    @apply text-mauve;
+  }
+  
+  .syntax-string {
+    @apply text-green;
+  }
+  
+  .syntax-comment {
+    @apply text-overlay1 italic;
+  }
+  
+  .syntax-function {
+    @apply text-blue;
+  }
+  
+  .syntax-variable {
+    @apply text-text;
+  }
+  
+  .syntax-number {
+    @apply text-peach;
+  }
+}
